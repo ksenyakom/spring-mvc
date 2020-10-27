@@ -13,7 +13,7 @@ import java.util.List;
 
 @Controller
 public class CarsController {
-    ReceiveCars receiveCars;
+    private ReceiveCars receiveCars;
 
     public CarsController(ReceiveCars receiveCars) {
         this.receiveCars = receiveCars;
