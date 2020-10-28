@@ -1,12 +1,13 @@
 package web.service;
 
 import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Service;
 import web.dao.CarsRepository;
 import web.model.Car;
 
 import java.util.List;
 
-@Component
+@Service
 public class ReceiveCars {
 
     public List<Car> nCars(int n) {
